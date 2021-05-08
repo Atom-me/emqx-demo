@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+
+
+mqtt:
+  broker-url: tcp://127.0.0.1:1883
+  client-id: emqx-demo-${random.int(1,100000)}
+  username: admin
+  password: public
